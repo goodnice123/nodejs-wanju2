@@ -1,21 +1,21 @@
 {
-  "name": "jsr-ay",
-  "version": "1.0.0",
-  "description": "nodejs-for-r-ay",
-  "main": "index.js",
-  "repository": "",
-  "author": "MITs",
-  "license": "MIT",
-  "private": false,
+  "name": "starter-for-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "vite": "^6.2.0"
   },
   "dependencies": {
-    "express": "latest",
-    "child_process": "^1.0.2"
-  },
-  "engines": {
-    "node": ">=14"
+    "@appwrite.io/pink-icons": "^1.0.0",
+    "@tailwindcss/vite": "^4.0.14",
+    "appwrite": "^17.0.0",
+    "tailwindcss": "^4.0.14"
   }
 }
-
